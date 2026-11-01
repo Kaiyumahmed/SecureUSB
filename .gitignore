@@ -1,0 +1,28 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Sensitive application data
+data/password.hash
+data/whitelist.json
+
+# Logs
+*.log
+logs/
+
+# Windows utility
+tools/devcon.exe
+
+# macOS system files
+.DS_Store
+
+# IDE settings
+.idea/
+.vscode/
