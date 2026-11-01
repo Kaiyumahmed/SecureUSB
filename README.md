@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="SecureUSB_GitHub_Banner.png" alt="SecureUSB Banner" width="100%">
+  <img src="SecureUSB Cybersecurity README Banner.png" alt="SecureUSB Banner" width="100%">
 </p>
 
 # SecureUSB
