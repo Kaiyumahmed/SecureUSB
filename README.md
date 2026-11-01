@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="SecureUSB_GitHub_Banner.png" alt="SecureUSB Banner" width="100%">
+</p>
+
+# SecureUSB
+
+### USB Security & Data Protection Tool
+
 # SecureUSB
 
 **A Windows-focused Python project for USB device monitoring, whitelist-based access control, password authentication, and on-demand file/folder encryption.**
