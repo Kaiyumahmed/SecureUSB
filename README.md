@@ -1,25 +1,19 @@
 <p align="center">
-  <img src="SecureUSB Cybersecurity README Banner.png" alt="SecureUSB Banner" width="100%">
+  <img src="SecureUSB_GitHub_Banner.png" alt="SecureUSB Banner" width="100%">
 </p>
 
-# SecureUSB
+## Overview
 
-### USB Security & Data Protection Tool
+SecureUSB is a Windows-focused Python application designed to protect USB devices and sensitive data through device monitoring, whitelist-based access control, password authentication, and file/folder encryption.
 
-# SecureUSB
+## Key Features
 
-**A Windows-focused Python project for USB device monitoring, whitelist-based access control, password authentication, and on-demand file/folder encryption.**
-
-> Academic / learning project. Review the security limitations below before using this with important data or on a production computer.
-
-## Features
-
-- **USB monitoring:** polls Windows Plug and Play devices through WMI.
-- **Device authorization:** compares USB vendor/product identifiers (VID/PID) against a local whitelist.
-- **Access decisions:** supports automatic blocking or an interactive choice to whitelist, temporarily allow, or block an unrecognized device.
-- **Password verification:** stores an administrator password hash using bcrypt.
-- **File and folder encryption:** encrypts files using Fernet from the Python `cryptography` package.
-- **Brute-force protection module:** includes a standalone attempt/lockout helper (`brute_defense.py`).
+- USB device monitoring
+- Authorized USB device whitelisting
+- Unauthorized device blocking
+- Password-based authentication
+- File and folder encryption
+- Brute-force protection helper
 
 ## How it is organized
 
